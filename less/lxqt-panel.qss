@@ -361,43 +361,42 @@ QMenu::indicator:non-exclusive:checked {
     margin: 2px;
     padding: 2px;
     border: none;
-    background: rgba(0, 0, 0, 80%);
+    border-radius: 3px;
+    background:rgb(34, 45, 50);
     qproperty-icon: url(mainmenu.svg);
     color: white;
 }
 
 #MainMenu QLineEdit {
-    background: black;
+    background:rgb(34, 45, 50);
     border: 1px solid #3c3c3c;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
+    border-bottom: 2px solid rgb(0, 188, 212);
     padding: 3px;
-    margin-bottom: 1px;
+    margin: 2px;
     color: white;
     selection-background-color: #640b0c;
 }
 
 #MainMenu ActionView {
     border: none;
-    background: black;
+    background:rgb(34, 45, 50);
     color: white;
 }
 
 #MainMenu ActionView::item {
-    background: black;
+    background:rgb(34, 45, 50);
     color: white;
     border: none;
-    padding: 4px 3px 4px 10px;
+    padding: 4px;
 }
 
 #MainMenu ActionView::item:selected {
-    background: #640b0c;
+    background: rgb(57, 68, 74);
     color: white;
 }
 
 #MainMenu ActionView::item:hover {
-    background: #500709;
+    background: rgb(57, 68, 74);
     color: white;
 }
 
