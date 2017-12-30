@@ -117,7 +117,7 @@ QMenu::item:disabled {
 }
 
 QMenu::right-arrow {
-    image: url(calendar-popup/arrow-right.svg);
+    image: url(calendar-popup/right-arrow.svg);
 }
 
 QMenu::indicator {
