@@ -6,11 +6,11 @@ LXQtPanel #BackgroundWidget {
     background: rgba(34, 45, 50, 95%);
 }
 QToolTip {
-    border: 1px solid hsv(0, 0, 41);
-    background:hsv(0, 0, 20);
+    border: 0px solid transparent;
+    background: rgb(38, 48, 53);
     padding: 2px;
     margin: 0px;
-    color: #DEDEDE
+    color: #FFFFFF
 }
 
 /*
@@ -26,7 +26,7 @@ LXQtPanelPlugin {
 
 Plugin  > QWidget,
 Plugin  > QWidget > QWidget {
-    color: #DEDEDE;
+    color: #FFFFFF;
 }
 
 Plugin > QToolButton,
