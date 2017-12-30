@@ -16,25 +16,21 @@ QToolButton::menu-indicator {
 
 #closeButton {
     qproperty-icon: url(lxqt-runner/close.svg);
-    margin: 2px;
+    margin: 3px;
 }
 #closeButton:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+   background:rgb(34, 45, 50);
 }
 
 #actionButton {
-    qproperty-icon: url(lxqt-runner/down-arrow.svg);
-    color: rgba(41, 41, 41, 0%);
-    margin: 2px;
+    qproperty-icon: url(lxqt-runner/more.svg);
+    margin: 3px;
 }
 #actionButton:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+   background:rgb(34, 45, 50);
 }
 #actionButton:pressed {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+   background:rgb(34, 45, 50);
 }
 
 /*
@@ -42,13 +38,12 @@ QToolButton::menu-indicator {
  */
 
 QLineEdit {
-    background: black;
-    border: 2px solid black;
-    border-radius: 3px;
-    padding: 6px;
+    background:rgb(34, 45, 50);
+    border-bottom: 2px solid rgb(0, 188, 212);
+    padding: 5px;
     margin-bottom: 1px;
     color: white;
-    selection-background-color: #640b0c;
+    selection-background-color: rgb(0, 188, 212);
 }
 
 /*
@@ -80,11 +75,8 @@ QLineEdit {
 QMenu {
     margin: 0px;
     padding: 2px;
-    border: 1px solid #323232;
-    border-bottom-color: black;
-    border-right-color: black;
-    background: black;
-    /*qproperty-icon: url(mainmenu.svg);*/
+    border: 1px solid rgb(40, 52, 58);
+    background: rgb(40, 52, 58);
     color: white;
 }
 
@@ -94,11 +86,11 @@ QMenu::icon {
 }
 
 QMenu QToolButton {
-    background-color: #3c3c3c;
+    background-color: rgb(34, 45, 50);
     padding: 5px;
     border: none;
     color: white;
-    font: bold italic;
+    font: bold;
 }
 
 QMenu::item {
@@ -112,24 +104,20 @@ QMenu::item {
 }
 
 QMenu::item:selected {
-    border: 10px solid #640b0c;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 5px;
-    background: #640b0c;
+    background: rgb(57, 68, 74);
     color: white;
 }
 
 QMenu::item:selected:disabled {
-    background-color: palette(text);
+    background-color: rgb(57, 68, 74);
 }
 
 QMenu::item:disabled {
-    color: #6D6D6D;
+    color: rgb(207, 216, 220);
 }
 
 QMenu::right-arrow {
-    image: url(arrow-right.svg);
+    image: url(calendar-popup/arrow-right.svg);
 }
 
 QMenu::indicator {
