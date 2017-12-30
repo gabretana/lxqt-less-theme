@@ -12,7 +12,6 @@ QLabel {
 
 #closeButton {
     border: none;
-    padding: 2px;
     qproperty-icon: url(lxqt-notificationd/cancel.svg);
 }
 
