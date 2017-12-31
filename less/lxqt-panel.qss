@@ -196,7 +196,7 @@ VolumePopup  > QSlider::sub-page:vertical {
 
 QCalendarWidget QAbstractItemView:enabled {
     color: white;
-    background: rgb(34, 45, 50);
+    background: rgb(38, 50, 56);
     selection-background-color: rgb(0, 188, 212);
     selection-color: white;
 }
@@ -206,29 +206,29 @@ QCalendarWidget QAbstractItemView:disabled {
 }
 
 QCalendarWidget QWidget {
-    alternate-background-color: #3c3c3c;
+    alternate-background-color: rgb(38, 50, 56);
 }
 
 QCalendarWidget #qt_calendar_navigationbar,
 QCalendarWidget #qt_calendar_navigationbar * {
-    background-color:hsv(0, 0, 41);
-    color: #DEDEDE;
+    background-color: rgb(34, 45, 50);
+    color: rgb(255, 255, 255);
 }
 QCalendarWidget #qt_calendar_monthbutton {
-    padding:2px;
     margin: 2px;
 }
 QCalendarWidget #qt_calendar_monthbutton:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+    border: 0px solid rgb(0, 0, 0);
+    background: rgb(57, 68, 74);
+    font: bold;
 }
 
 QCalendarWidget #qt_calendar_monthbutton::menu-indicator {
-   image: none;
+    image: none;
 }
 
 QCalendarWidget QTableView {
-    selection-background-color:hsv(0, 0, 41);
+    selection-background-color: rgb(0, 188, 212);
 }
 QCalendarWidget #qt_calendar_nextmonth {
     max-height:20px;
@@ -245,20 +245,20 @@ QCalendarWidget #qt_calendar_prevmonth {
  * Clock
  */
 #Clock:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+   border: 0px solid rgba(0, 0, 0);
+   background: rgb(57, 68, 74);
 }
 
 #Clock > QWidget{
     margin: 2px;
 }
 #Clock #TimeLabel{
-    color: #DEDEDE;
+    color: #FFFFFF;
     margin-right: 2px;
     margin-left: 2px;
 }
 #Clock #DateLabel{
-    color: #DEDEDE;
+    color: #FFFFFF;
     margin-right: 2px;
     margin-left: 2px;
 }
