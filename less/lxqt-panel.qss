@@ -400,17 +400,17 @@ QMenu::indicator:non-exclusive:checked {
 }
 
 #LXQtMountPopup {
-    background-color: hsv(0, 0, 41);
+    background-color: rgb(40, 52, 58);
     padding: 4px;
 }
 
-#LXQtMountPopup > MenuDiskItem {
+/*#LXQtMountPopup > MenuDiskItem {
     border-radius: 4px;
-}
+}*/
 
 #LXQtMountPopup > MenuDiskItem:hover {
-    border: 1px solid rgba(0, 0, 0, 50%);
-    background: rgba(255, 255, 255, 20%);
+    border: 0px solid rgb(0, 0, 0);
+    background: rgb(57, 68, 74);
 }
 
 #LXQtMountPopup #EjectButton,
@@ -418,13 +418,13 @@ QMenu::indicator:non-exclusive:checked {
     qproperty-iconSize: 22px;
     background-color: transparent;
     border: none;
-    color: #EEEEEE;
+    color: #FFFFFF;
     padding: 4px;
 }
 
 #LXQtMountPopup #NoDiskLabel {
     margin: 6px;
-    color: #CCCCCC;
+    color: #FFFFFF;
 }
 
 
@@ -432,8 +432,8 @@ QMenu::indicator:non-exclusive:checked {
  * ShowDesktop
  */
 #ShowDesktop > QToolButton:hover {
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+   border: 0px solid rgb(0, 0, 0);
+   background: transparent;
 }
 
 /*
@@ -451,7 +451,7 @@ QMenu::indicator:non-exclusive:checked {
 
 #KbIndicator > QLabel:enabled {
     color: white;
-    background: #780d0f;
+    background: rgb(0, 188, 212);
 }
 
 /*
@@ -468,19 +468,19 @@ QMenu::indicator:non-exclusive:checked {
 }
 
 #SysStat_Graph {
-    qproperty-gridColor: rgba(255, 255, 255, 25%);
-    qproperty-titleColor: rgba(255, 255, 255, 75%);
-    qproperty-cpuSystemColor: rgb(128, 0, 0);
-    qproperty-cpuUserColor: rgb(0, 0, 128);
-    qproperty-cpuNiceColor: rgb(0, 128, 0);
-    qproperty-cpuOtherColor: rgb(128, 128, 0);
-    qproperty-frequencyColor: rgb(96, 96, 96);
-    qproperty-memAppsColor: rgb(0, 0, 128);
-    qproperty-memBuffersColor: rgb(0, 128, 0);
-    qproperty-memCachedColor: rgb(128, 128, 0);
-    qproperty-swapUsedColor: rgb(128, 0, 0);
-    qproperty-netReceivedColor: rgb(0, 0, 128);
-    qproperty-netTransmittedColor: rgb(128, 128, 0);
+    qproperty-gridColor: rgb(207, 216, 220);
+    qproperty-titleColor: rgb(255, 255, 255);
+    qproperty-cpuSystemColor: rgb(255, 108, 108);
+    qproperty-cpuUserColor: rgb(0, 188, 212);
+    qproperty-cpuNiceColor: rgb(77, 182, 172);
+    qproperty-cpuOtherColor: rgb(48, 78, 81);
+    qproperty-frequencyColor: rgb(62, 74, 80);
+    qproperty-memAppsColor: rgb(255, 108, 108);
+    qproperty-memBuffersColor: rgb(0, 188, 212);
+    qproperty-memCachedColor: rgb(48, 78, 81);
+    qproperty-swapUsedColor: rgb(77, 182, 172);
+    qproperty-netReceivedColor: rgb(0, 188, 212);
+    qproperty-netTransmittedColor: rgb(255, 108, 108);
 }
 
 /*
