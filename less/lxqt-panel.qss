@@ -362,7 +362,7 @@ QMenu::indicator:non-exclusive:checked {
 
 #MainMenu QLineEdit {
     background:rgb(34, 45, 50);
-    border: 1px solid #3c3c3c;
+    border: 0px solid rgb(0, 0, 0);
     border-bottom: 2px solid rgb(0, 188, 212);
     padding: 3px;
     margin: 2px;
@@ -371,7 +371,6 @@ QMenu::indicator:non-exclusive:checked {
 }
 
 #MainMenu ActionView {
-    border: none;
     background:rgb(34, 45, 50);
     color: white;
 }
