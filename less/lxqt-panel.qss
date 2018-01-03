@@ -3,7 +3,7 @@
  */
 
 LXQtPanel #BackgroundWidget {
-    background: rgba(34, 45, 50, 95%);
+    background: rgba(34, 45, 50, 85%);
 }
 QToolTip {
     border: 0px solid transparent;
