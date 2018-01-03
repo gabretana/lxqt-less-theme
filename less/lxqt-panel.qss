@@ -488,14 +488,14 @@ QMenu::indicator:non-exclusive:checked {
  */
 #WorldClock:hover {
    border: 0px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
+   background: rgb(57, 68, 74);
 }
 
 #WorldClockContent {
     margin-right: 2px;
     margin-left: 2px;
     padding: 2px;
-    color: #DEDEDE;
+    color: #FFFFFF;
     background: transparent;
 }
 
