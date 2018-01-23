@@ -10,3 +10,8 @@ Download repository and extract it in:
 ```
 
 #### Recommend kvantum style [Adapta KDE](https://github.com/PapirusDevelopmentTeam/adapta-kde)
+
+#### Screenshots
+
+![](https://i.imgur.com/heKhMef.png)
+![](https://i.imgur.com/Ml3q4Ic.png)
