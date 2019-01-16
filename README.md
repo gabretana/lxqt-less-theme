@@ -2,6 +2,8 @@
 
 Theme based on Adapta and LXQt dark theme
 
+# This repo is hosted on [GitLab](https://gitlab.com/isseigx/lxqt-less-theme) now
+
 #### Install
 
 Download repository and extract it in:
